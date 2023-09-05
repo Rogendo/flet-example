@@ -5,7 +5,7 @@ from flet import *
 
 def main(page :ft.Page):
   page.title = "hello world app"
-  page.theme_ = "dark"
+  page.theme_mode= "dark"
 
   message = ft.Text(value= "hello guys, this us my first flutter app")
   page.add(message)

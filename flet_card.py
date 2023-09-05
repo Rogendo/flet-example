@@ -2,6 +2,8 @@ import flet as ft
 
 def main(page):
     page.title = "Card Example"
+
+    page.theme_mode = "light"
     page.add(
         ft.Card(
             content=ft.Container(
@@ -13,7 +15,7 @@ def main(page):
                             subtitle=ft.Text(
                                 "pickup groceries at Naivas Supermarket..."
                             ),
-                            subtitle=ft.Text("Deadline at November 10, 2023 10:00 am"),
+                            # subtitle=ft.Text("Deadline at November 10, 2023 10:00 am"),
                         ),
                         ft.Row(
                             [ft.TextButton("View"), ft.TextButton("Confirm")],
